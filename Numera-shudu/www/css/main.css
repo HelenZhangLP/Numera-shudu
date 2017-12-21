@@ -1,0 +1,154 @@
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 14px;
+}
+body {
+  background-color: #eee;
+  font-family: "Consolas", "微软雅黑";
+  user-select: none;
+  max-width: 450px;
+}
+body > * {
+  max-width: 450px;
+}
+.title {
+  position: relative;
+  background-color: #339;
+  color: #fff;
+  box-shadow: 0 0.2rem 0.3rem #303030;
+  font-family: 微软雅黑;
+}
+.title h1 {
+  text-align: center;
+  line-height: 3em;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+.container {
+  margin: 2em 5% 0;
+  border: solid 4px #ccc;
+  border-radius: 5px;
+}
+.container .row > span {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 11.1%;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+.container .row > span.col-right-border {
+  border-right-width: 1px;
+}
+.container .row > span.empty {
+  color: transparent;
+}
+.container .row > span.full {
+  background-color: #eee;
+}
+.container .row > span.error {
+  background-color: #910;
+}
+.container .row > span.markFirst {
+  background: #969;
+}
+.container .row > span.markEnd {
+  background: #996;
+}
+.container .row.row-bottom-border > span {
+  border-bottom-width: 1px;
+}
+.hidden {
+  display: none;
+}
+.popup-model {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 4em;
+}
+.popup-panel {
+  margin: 2em 5% 0;
+  border: solid 4px #ccc;
+  border-radius: 5px;
+  margin: 0;
+  position: absolute;
+}
+.popup-panel .row > span {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 11.1%;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+.popup-panel .row > span.col-right-border {
+  border-right-width: 1px;
+}
+.popup-panel .row > span.empty {
+  color: transparent;
+}
+.popup-panel .row > span.full {
+  background-color: #eee;
+}
+.popup-panel .row > span.error {
+  background-color: #910;
+}
+.popup-panel .row > span.markFirst {
+  background: #969;
+}
+.popup-panel .row > span.markEnd {
+  background: #996;
+}
+.popup-panel .row.row-bottom-border > span {
+  border-bottom-width: 1px;
+}
+.popup-panel .row {
+  font-size: 0;
+}
+.popup-panel .row > span {
+  background-color: #fff;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  lineheihgt: 40px;
+}
+.dashboard {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #339;
+  box-sizing: border-box;
+  box-shadow: 0 -0.2rem 0.3rem #303030;
+  height: 3rem;
+}
+.dashboard .buttons button {
+  width: 25%;
+  border: solid 1px #ccc;
+  color: #fff;
+  height: 3rem;
+  border-radius: 0;
+  background-color: transparent;
+  border-right-width: 0;
+  border-top-width: 0;
+  float: left;
+}
+.dashboard .buttons button:ast-child {
+  lborder-right-width: 1;
+}
